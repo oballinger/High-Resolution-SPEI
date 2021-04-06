@@ -7,7 +7,7 @@ from pathlib import Path
 ## Input the total number of months in your timeframe and the path to the files from step 1.
 months=398
 path="/Users/ollie/Google Drive/"
-df=pd.read_csv(str(Path(path+"Grid_10km_Mean_WaterBalance.csv")), header=None)
+df=pd.read_csv(path+"Grid_10km_Mean_WaterBalance.csv"), header=None)
 
 ## Clean column names 
 df.iloc[0]=df.iloc[0].str.split('_').str[0]
