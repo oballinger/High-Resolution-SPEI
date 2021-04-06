@@ -2,7 +2,6 @@
 ## Format data 
 import csv
 import pandas as pd
-from pathlib import Path
 
 ## Input the total number of months in your timeframe and the path to the files from step 1.
 months=398
